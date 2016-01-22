@@ -1,0 +1,22 @@
+﻿<Window x:Class="HotelOrigin.AddRoomWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelOrigin"
+        mc:Ignorable="d"
+        Title="AddRoomWin" Height="300" Width="300" Closing="Window_Closing">
+    <Grid>
+        <Label x:Name="label" Content="Room ID." HorizontalAlignment="Left" Margin="17,25,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Room No." HorizontalAlignment="Left" Margin="17,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="No. Of Beds" HorizontalAlignment="Left" Margin="17,125,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="hasTv_cbx" Content="Has TV" HorizontalAlignment="Left" Margin="95,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Options" HorizontalAlignment="Left" Margin="17,175,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Room_id_txb" HorizontalAlignment="Left" Height="23" Margin="95,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Room_No_txb" HorizontalAlignment="Left" Height="23" Margin="95,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Room_NoB_txb" HorizontalAlignment="Left" Height="23" Margin="95,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AddRoomSubmit" Content="Submit" HorizontalAlignment="Left" Margin="25,225,0,0" VerticalAlignment="Top" Width="250" Click="AddRoomSubmit_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" VerticalAlignment="Top" Width="275"/>
+
+    </Grid>
+</Window>

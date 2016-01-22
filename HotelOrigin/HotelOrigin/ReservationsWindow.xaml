@@ -1,0 +1,16 @@
+﻿<Window x:Class="HotelOrigin.ReservationsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelOrigin"
+        mc:Ignorable="d"
+        Title="ReservationsWindow" Height="418.013" Width="509.402">
+    <Grid>
+        <DataGrid x:Name="ResvdataGrid" HorizontalAlignment="Left" Margin="9,80,0,0" VerticalAlignment="Top" Height="287" Width="480" SelectionChanged="ResvdataGrid_SelectionChanged"/>
+        <Button x:Name="Add" Content="Add" HorizontalAlignment="Left" Margin="310,50,0,0" VerticalAlignment="Top" Width="75" Click="Add_Click"/>
+        <Button x:Name="Remove" Content="Remove" HorizontalAlignment="Left" Margin="410,50,0,0" VerticalAlignment="Top" Width="75" Click="Remove_Click"/>
+        <Label x:Name="label" Content="Reservations List" HorizontalAlignment="Left" Margin="190,9,0,0" VerticalAlignment="Top" Width="113" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
